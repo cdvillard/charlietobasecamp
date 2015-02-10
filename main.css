@@ -1,0 +1,107 @@
+body {
+	width: 1000px;
+	margin: 25px auto;
+	background-color: #f5efe6;
+}
+p {
+	font-family: "Gentium Book Basic", serif;
+	font-size: 20px;
+}
+h1 {
+	font-family: "Open Sans";
+	font-weight: 700;
+	font-size: 40px;
+		padding-bottom: 20px;
+}
+
+header {
+	margin-bottom: 30px;
+}
+.ctb {
+	padding-bottom: 10px;
+}
+.headshot {
+	float: left;
+	margin-right: 10px;
+	width: 65px;
+}
+nav li {
+	display: inline;
+	padding-right: 10px;
+}
+nav a {
+	text-decoration: none;
+	font-family: "Gentium Book Basic", sans-serif;
+	color: #000;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+#main{
+	width: 900px;
+	height: 1000px;
+	padding: 30px;
+	border: 1px solid gray;
+	background-color: #fff;
+}
+/*Content*/
+#content {
+	float: left;
+	width: 500px;
+}
+
+/*Basecamp Logo feature*/
+
+#bcfeature {
+	float: right;
+  width: 325px;
+}
+#intro{
+  float: right;
+  width: 170px;
+}
+#color {
+	display: block;
+	padding-top: 25px;
+	height: 150px;
+  text-align: right;
+  font-family: "Open Sans";
+  font-size: 27px;
+  font-weight: 700;
+}
+#intro button {
+  margin: 0px 20px;
+  height: 50px;
+  width: 150px;
+  font-weight: 600;
+  color: white;
+  background: #3c78b1;
+  border-radius: 20px;
+  border-bottom: 5px solid #1E3C58;
+}
+#intro button:focus {
+  outline: none;
+}
+#bclogo {
+  width: 300px;
+}
+#bclogo svg {
+  height: 258px;
+  width: 325px;
+}
+#bclogo path {
+  transition: fill 0.5s;
+  -webkit-transition: fill 0.5s;
+  -moz-transition: fill 0.5s;
+  -o-transition: fill 0.5s;
+}
+#headshot {
+  float: left;
+  height: 200px;
+  width: 150px;
+  text-align: center;
+}
+#headshot img{
+  width: 140px;
+  margin-bottom: 10px;
+}
