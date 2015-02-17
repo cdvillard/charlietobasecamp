@@ -4,18 +4,56 @@ body {
 	background-color: #f5efe6;
 }
 p {
+	padding-bottom: 1em;
 	font-family: "Gentium Book Basic", serif;
-	font-size: 20px;
+	line-height: 1.25em;
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	background-color: #f5efe6;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
 }
 h1 {
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 37px;
 		padding-bottom: 20px;
 }
-
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+		padding-bottom: 20px;
+}
+h4 {
+	font-family: "Gentium Book Basic", serif;
+	text-decoration: underline;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+h5 {
+	font-family: "Gentium Book Basic", serif;
+	font-style: italic;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
 header {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid gray;
+}
+#pointer {
+	font-family: "Gentium Book Basic", serif;
+	vertical-align: bottom;
+	font-size: 30px;
+}
+#sub {
+	padding-top: 20px;
+	width: 50%;
 }
 .ctb {
 	padding-bottom: 10px;
@@ -39,22 +77,25 @@ nav a:hover {
 }
 #main{
 	width: 900px;
-	height: 1000px;
 	padding: 30px;
 	border: 1px solid gray;
 	background-color: #fff;
 }
-/*Content*/
-#content {
-	float: left;
-	width: 500px;
-}
 
+#whyme {
+	font-family: "Open Sans";
+	font-weight: 700;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
 /*Basecamp Logo feature*/
 
 #bcfeature {
 	float: right;
   width: 325px;
+  height: 500px;
+  padding-left: 50px;
+  padding-bottom: 25px;
 }
 #intro{
   float: right;
@@ -62,15 +103,15 @@ nav a:hover {
 }
 #color {
 	display: block;
-	padding-top: 25px;
-	height: 150px;
+	padding-top: 10px;
+	height: 110px;
   text-align: right;
   font-family: "Open Sans";
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 700;
 }
 #intro button {
-  margin: 0px 20px;
+  margin: 10px 20px 0;
   height: 50px;
   width: 150px;
   font-weight: 600;
@@ -104,4 +145,13 @@ nav a:hover {
 #headshot img{
   width: 140px;
   margin-bottom: 10px;
+}
+#pentry {
+	text-align: center;
+	margin-bottom: 15px;
+}
+#pentry img{
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #aaa;
 }

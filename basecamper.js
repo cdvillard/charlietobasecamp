@@ -66,6 +66,10 @@ var i = 0;
 var button = document.getElementById('camp-btn');
 var listBaseCampers = function() {
     var j = Math.floor(Math.random()*basecampers.length);
+
+    //Oooh, look, an image appears.
+    document.getElementById("caricature").style.display = "inline";
+
     //Lucky one of ten!
     document.getElementById("Fill-1").setAttribute("fill",basecampers[j].color1);
     document.getElementById("Fill-2").setAttribute("fill",basecampers[j].color2);
@@ -81,9 +85,12 @@ var listBaseCampers = function() {
       document.getElementById("Fill-1").setAttribute("fill", "#899394");
       document.getElementById("Fill-2").setAttribute("fill", "#c68b6d");
       document.getElementById("Fill-3").setAttribute("fill", "#4a2512");
-        button.removeEventListener("click", listBaseCampers, false);
+      document.getElementById("camp-btn").innerHTML = "Keep clicking if you want to see more."
     }
 };
+
+//Hiding the image to begin with
+document.getElementById("caricature").style.display = "none";
 
 //Gotta turn it all on.
 button.addEventListener("click", listBaseCampers, false);
